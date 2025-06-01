@@ -1,0 +1,35 @@
+---
+import Cardprojects from "../cards/Cardprojects.astro";
+import Badgetecnologi from "../bagde/Badgetecnologi.astro";
+import projects from "../../data/en/projects.json";
+---
+
+<div>
+<ol class="group/list">
+  {
+    projects.map((project, index) => {
+      return (
+        <li class="mb-12">
+          <a href={project.repositorie} target="_blank" rel="noopener noreferrer">
+            <Cardprojects
+              image={project.image}
+              date={project.date}
+              title={project.title}
+              content={project.content}
+            >
+              <span slot="title">{project.title}</span>
+              <span slot="content">{project.content}</span>
+              <span slot="badges">
+                {project.badges.map((badge, i) => (
+                  <Badgetecnologi key={i}>{badge}</Badgetecnologi>
+                ))}
+              </span>
+            </Cardprojects>
+          </a>
+        </li>
+      );
+    })
+  }
+</ol>
+
+</div>

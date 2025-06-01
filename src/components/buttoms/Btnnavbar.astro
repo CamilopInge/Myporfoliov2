@@ -1,9 +1,38 @@
+---
+const { href } = Astro.props;
+---
+
 <a
-    href="#"
-    class="group flex items-center text-black uppercase text-sm tracking-widest"
+  href={href}
+  data-nav-btn
+  class="group flex items-center text-black uppercase text-sm tracking-widest transition-all active:!text-[#FD7014]"
 >
-    <span
-        class="block h-[2px] bg-black w-8 group-hover:w-16 group-focus:w-16 transition-all duration-300 ease-out mr-2"
-    ></span>
-    <slot />
+  <span
+    class="block h-[2px] bg-[#FD7014] w-8 group-hover:w-16 group-focus:w-16 transition-all duration-300 ease-out mr-2"
+  ></span>
+  <slot />
 </a>
+
+<style>
+  a.active span {
+    width: 4rem; /* activa la línea larga */
+  }
+
+  a.active .nav-text {
+    color: #FD7014 !important; /* activa el color del texto */
+  }
+</style>
+
+<script is:inline>
+  document.addEventListener("DOMContentLoaded", () => {
+    const buttons = document.querySelectorAll("[data-nav-btn]");
+    const setActive = () => {
+      buttons.forEach(btn => btn.classList.remove("active"));
+      const current = Array.from(buttons).find(btn => btn.getAttribute("href") === location.hash);
+      if (current) current.classList.add("active");
+    };
+
+    setActive();
+    window.addEventListener("hashchange", setActive);
+  });
+</script>

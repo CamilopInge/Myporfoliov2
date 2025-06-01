@@ -1,0 +1,44 @@
+---
+// No props necesarios
+---
+
+<button
+  id="theme-toggle"
+  aria-label="Toggle dark mode"
+  class="fixed bottom-5 right-5 p-3 rounded-full bg-gray-800 text-white dark:bg-gray-200 dark:text-gray-800 transition"
+>
+  🌙
+</button>
+
+<script is:inline>
+  const toggleBtn = document.getElementById('theme-toggle');
+  const html = document.documentElement;
+
+  function applyTheme(theme) {
+    if (theme === 'dark') {
+      html.classList.add('dark');
+      toggleBtn.textContent = '☀️';
+      localStorage.setItem('theme', 'dark');
+    } else {
+      html.classList.remove('dark');
+      toggleBtn.textContent = '🌙';
+      localStorage.setItem('theme', 'light');
+    }
+  }
+
+  const savedTheme = localStorage.getItem('theme');
+  if (savedTheme) {
+    applyTheme(savedTheme);
+  } else {
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    applyTheme(prefersDark ? 'dark' : 'light');
+  }
+
+  toggleBtn.addEventListener('click', () => {
+    if (html.classList.contains('dark')) {
+      applyTheme('light');
+    } else {
+      applyTheme('dark');
+    }
+  });
+</script>

@@ -1,0 +1,28 @@
+---
+import skillsData from "../../data/en/habilidades.json";
+---
+
+<section class="space-y-10">
+  {
+    skillsData.map((section) => (
+      <div>
+        <h2 class="text-smb font-semibold mb-4 text-[#141517] dark:text-[#F2F4F7]">{section.categoria}</h2>
+        <div class="flex flex-wrap gap-6">
+          {section.habilidades.map((skill) => (
+            <div class="flex flex-col items-center w-20">
+              <img
+                src={skill.svg}
+                alt={skill.titulo}
+                class="w-10 h-10"
+              />
+              <span class="mt-2 text-sm text-center text-[#141517] dark:text-slate-300">
+                {skill.titulo}
+              </span>
+            </div>
+          ))}
+        </div>
+      </div>
+    ))
+  }
+</section>
+

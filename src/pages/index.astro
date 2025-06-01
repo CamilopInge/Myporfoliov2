@@ -1,85 +1,136 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Header from "../components/Header.astro";
-import Cardexperience from "../components/cards/Cardexperience.astro";
-import Badgetecnologia from "../components/bagde/Badgetecnologi.astro";
-//import Corrusel from "../components/corrusel/Corrusel.astro";
+import Listprojects from "../components/listas/Listprojects.astro";
+import Listexperience from "../components/listas/Listexperience.astro";
+import Listskills from "../components/listas/Listskills.astro";
+import Listcertificates from "../components/listas/Listcertificates.astro";
 ---
 
-<Layout title="Camiloaguirre">
+<Layout title="Camilo Aguirre">
+
+    <div class="text-[#141517] dark:text-slate-300">
+    <!-- Section about -->
+    <section
+        id="about"
+        class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+        aria-label="About me"
+    >
+        <div
+            class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-[] px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:mx-auto lg:w-full lg:px-0 lg:py-0"
+        >
+            <h2
+                class="text-sm font-bold uppercase tracking-widest"
+            >
+                About
+            </h2>
+        </div>
+        <div class="mt-2 text-sm leading-normal">
+            <p class="mb-4">
+                I started studying systems engineering in 2021, creating web
+                designs. I didn't exploit my creativity much but I got along
+                quite well within the code, creating functionalities in the
+                Back-end. I haven't had the privilege of working with a company,
+                but I support myself with projects to solve problems.
+            </p>
+            <p class="mb-4">
+                My main current goal is to continue working on experience and
+                error management. What I like most is creating scalable,
+                aesthetic and effective software, that looks well designed but
+                works the right way. In my free time I upload videos to YouTube
+                about Linux (Servers, Installations, Console).
+            </p>
+            <p class="mb-4">
+                When I'm not in front of the computer, I like to study, play,
+                read and exercise. I usually think about how to improve every
+                day and I even put code in my life to help me make things easier
+                (I could do it in 1 minute but I decided to automate it),
+                currently I'm looking to develop what I'm doing.
+            </p>
+        </div>
+    </section>
+
+    <!-- Section Experiences -->
+
     <section
         id="experience"
         class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
         aria-label="Work experience"
     >
         <div
-            class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0"
+            class="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:mx-auto lg:w-full lg:px-0 lg:py-0"
         >
             <h2
-                class="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only"
+                class="text-sm font-bold uppercase tracking-widest"
             >
-                About
+                Experience
             </h2>
         </div>
-        <div>
-            <p class="mb-4">
-                Back in 2012, I decided to try my hand at creating custom Tumblr
-                themes and tumbled head first into the rabbit hole of coding and
-                web development. Fast-forward to today, and I’ve had the
-                privilege of building software for an
-            </p>
-            <p class="mb-4">
-                My main focus these days is building accessible user interfaces
-                for our customers at Klaviyo. I most enjoy building software in
-                the sweet spot where design and engineering meet — things that
-                look good but are also built well under the hood. In my free
-                time, I've also released an online video course that covers
-                everything you need to know to build a web app with the Spotify
-                API.
-            </p>
-            <p class="mb-4">
-                When I’m not at the computer, I’m usually rock climbing,
-                reading, hanging out with my wife and two cats, or running
-                around Hyrule searching for Korok seeds
-            </p>
-        </div>
+        <!-- Lista de experiencias -->
+        <Listexperience />
     </section>
 
-    
-    <section id="experience" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="Work experience">
-        <div class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
-            <h2 class="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">Experience</h2>
+    <!-- Section Projects -->
+
+    <section
+        id="projects"
+        class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+        aria-label="Projects"
+    >
+        <!-- Título -->
+        <div
+            class="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:mx-auto lg:w-full lg:px-0 lg:py-0"
+        >
+            <h2
+                class="text-sm font-bold uppercase tracking-widest"
+            >
+                Projects
+            </h2>
         </div>
-        <div>
-            <ol class="group/list">
-                <li class="mb-12">
-                    <Cardexperience date="2024 — Present">
-                        <span slot="title">
-                            Senior Frontend Engineer, Accessibility · <a href="https://www.klaviyo.com" target="_blank" rel="noreferrer noopener" class="text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">Klaviyo</a>
-                        </span>
-                        <span slot="content">
-                            Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.
-                        </span>
-                        <span slot="badges">
-                            
-                                <Badgetecnologia>JavaScripts</Badgetecnologia>
-                            
-                            
-                                <Badgetecnologia>TypeScripts</Badgetecnologia>
-                            
-                            
-                                <Badgetecnologia>React</Badgetecnologia>
-                            
-                            
-                                <Badgetecnologia>Storybook</Badgetecnologia>
-                            
-                        </span>
-                    </Cardexperience>
-                </li>
-            </ol>
-        </div>
+
+        <!-- Lista de proyectos -->
+        <Listprojects />
     </section>
 
-    
+    <!-- Section Skills -->
 
+    <section
+        id="skills"
+        class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+        aria-label="skills"
+    >
+        <!-- Título -->
+        <div
+            class="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:mx-auto lg:w-full lg:px-0 lg:py-0"
+        >
+            <h2
+                class="text-sm font-bold uppercase tracking-widest"
+            >
+                Skills
+            </h2>
+        </div>
+
+        <Listskills />
+        
+    </section>
+
+    <!-- Section Certificates -->
+
+    <section
+        id="certificates"
+        class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+        aria-label="certificates"
+    >
+        <!-- Título -->
+        <div
+            class="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:mx-auto lg:w-full lg:px-0 lg:py-0"
+        >
+            <h2
+                class="text-sm font-bold uppercase tracking-widest"
+            >
+                Certificates
+            </h2>
+        </div>
+        <Listcertificates />
+    </section>
+    </div>
 </Layout>

@@ -1,0 +1,55 @@
+[
+  {
+    "image": "/images/projects_manager_accounts.webp",
+    "date": "January 2023",
+    "title": "Account Manager",
+    "content": "Developed a scalable e-commerce platform with React, Node.js, and MongoDB.",
+    "repositorie": "",
+    "badges": [
+      "Java",
+      "MySQL",
+      "JSON"
+    ]
+  },
+  {
+    "image": "/images/projects_porfolio_V1.webp",
+    "date": "March 2023",
+    "title": "Portfolio Website Version 1",
+    "content": "Designed and built a responsive personal portfolio website with animations.",
+    "repositorie": "https://github.com/CamilopInge/MyPortafolioWeb",
+    "badges": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "JSON"
+    ]
+  },
+  {
+    "image": "/images/project_ecommerce_home.webp",
+    "date": "August 2024",
+    "title": "Ecommerce Basic (ChatBOT)",
+    "content": "Creation of a computer store, with a ChatBot (OpenIA API) to display product content",
+    "repositorie": "https://github.com/CamilopInge/laravel_e-comerce",
+    "badges": [
+      "PHP",
+      "Laravel",
+      "SQLserver",
+      "Bootstrap",
+      "OpenIA"
+    ]
+  },
+  {
+    "image": "/images/project_iot_dashboard.webp",
+    "date": "May 2025",
+    "title": "Ecosistema IoT Temperature sensor",
+    "content": "Creating an IoT ecosystem for a temperature and humidity sensor, for data analysis with Python, using MQTT protocol and NODE-red",
+    "repositorie": "https://github.com/CamilopInge/ecosistemaiot",
+    "badges": [
+      "SQLite",
+      "Python",
+      "WokWi",
+      "Node-Red",
+      "HiveMQ"
+    ]
+  }
+]

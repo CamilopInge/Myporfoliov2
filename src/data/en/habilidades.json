@@ -1,0 +1,86 @@
+[
+    {
+        "categoria": "Back-end",
+        "habilidades": [
+            {
+                "titulo": "Java",
+                "svg": "/images/skills/java.svg"
+            },
+            {
+                "titulo": "Laravel",
+                "svg": "/images/skills/laravel.svg"
+            },
+            {
+                "titulo": "Python",
+                "svg": "/images/skills/python.svg"
+            },
+            {
+                "titulo": "MySQL",
+                "svg": "/images/skills/mysql.svg"
+            },
+            {
+                "titulo": "SQLserver",
+                "svg": "/images/skills/sqlserver.svg"
+            },
+            {
+                "titulo": "MongoDB",
+                "svg": "/images/skills/mongodb.svg"
+            }
+
+        ]
+    },
+    {
+        "categoria": "Front-end",
+        "habilidades": [
+            {
+                "titulo": "HTML",
+                "svg": "/images/skills/html.svg"
+            },
+            {
+                "titulo": "CSS",
+                "svg": "/images/skills/css.svg"
+            },
+            {
+                "titulo": "JavaScript",
+                "svg": "/images/skills/javascript.svg"
+            },
+            {
+                "titulo": "Tailwind",
+                "svg": "/images/skills/tailwind.svg"
+            },
+            {
+                "titulo": "Astro",
+                "svg": "/images/skills/astro.svg"
+            },
+            {
+                "titulo": "React",
+                "svg": "/images/skills/react.svg"
+            }
+        ]
+    },
+    {
+        "categoria": "Extra",
+        "habilidades": [
+            {
+                "titulo": "Figma",
+                "svg": "/images/skills/figma.svg"
+            },
+             {
+                "titulo": "Canva",
+                "svg": "/images/skills/canva.svg"
+            },
+            {
+                "titulo": "Git",
+                "svg": "/images/skills/git.svg"
+            },
+             {
+                "titulo": "Excel",
+                "svg": "/images/skills/excel.svg"
+            },
+             {
+                "titulo": "PowerBI",
+                "svg": "/images/skills/powerbi.svg"
+            }
+        ]
+    }
+]

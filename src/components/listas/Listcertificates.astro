@@ -1,0 +1,25 @@
+---
+import certificates from '../../data/en/certificates.json';
+import Badgetecnologi from "../bagde/Badgetecnologi.astro";
+---
+
+<div class="flex flex-col gap-4">
+  {certificates.map((cert) => (
+    <div class="flex items-center gap-4 p-4 rounded-md hover:bg-slate-800/50 transition">
+      <span class="text-2xl">🏅</span>
+      <div class="flex flex-col">
+        <span class="text-sm leading-normal text-[#141517] dark:text-slate-300">{cert.name}</span>
+        
+      </div>
+      <a href={cert.url} target="_blank" rel="noopener noreferrer" class="ml-auto text-[#141517] dark:text-[#F2F4F7] hover:text-[#FD7014] transition">
+        <svg viewBox="0 0 24 24" fill="none" class="w-4 h-4" xmlns="http://www.w3.org/2000/svg">
+          <path d="M13.5 10.5L21 3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M16 3L21 3L21 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M21 14V19C21 20.1046 20.1046 21 19 21H12H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </a>
+      <Badgetecnologi>{cert.lugar}</Badgetecnologi>
+    </div>
+  ))}
+  
+</div>
