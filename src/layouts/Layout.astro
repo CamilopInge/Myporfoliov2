@@ -1,7 +1,7 @@
 ---
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import ThemeToggle from '../components/ThemeToggle.astro';
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import ThemeToggle from "../components/ThemeToggle.astro";
 
 interface Props {
 	title: string;
@@ -21,23 +21,20 @@ const { title } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body class="bg-[#F2F4F7] dark:bg-[#141517]">
-		<div class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
-		<div class="lg:flex lg:justify-between lg:gap-4">
-
-		<Header class="w-full lg:w-1/2" />
-		<main id="content" class="pt-24 lg:w-1/2 lg:py-24">
-			<slot />
-		</main>
-		</div>	
+		<div
+			class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0"
+		>
+			<div class="lg:flex lg:justify-between lg:gap-4">
+				<Header class="w-full lg:w-1/2" />
+				<main id="content" class="pt-24 lg:w-1/2 lg:py-24">
+					<slot />
+				</main>
+			</div>
 		</div>
-<Footer />
-<ThemeToggle />
-		
+		<Footer />
+		<ThemeToggle />
 	</body>
-	
 </html>
-
-
 
 <style is:global>
 	:root {
@@ -54,7 +51,6 @@ const { title } = Astro.props;
 	html {
 		font-family: system-ui, sans-serif;
 		scroll-behavior: smooth;
-		
 	}
 	code {
 		font-family:
@@ -70,32 +66,35 @@ const { title } = Astro.props;
 </style>
 
 <script is:inline>
-  document.addEventListener("DOMContentLoaded", () => {
-    const sections = document.querySelectorAll("section[id]");
-    const navButtons = document.querySelectorAll("[data-nav-btn]");
+	document.addEventListener("DOMContentLoaded", () => {
+		const sections = document.querySelectorAll("section[id]");
+		const navButtons = document.querySelectorAll("[data-nav-btn]");
 
-    function onScroll() {
-      let currentId = "";
-      const scrollY = window.pageYOffset;
+		function onScroll() {
+			let currentId = "";
+			const scrollY = window.pageYOffset;
 
-      sections.forEach((section) => {
-        const offsetTop = section.offsetTop;
-        const offsetHeight = section.offsetHeight;
+			sections.forEach((section) => {
+				const offsetTop = section.offsetTop;
+				const offsetHeight = section.offsetHeight;
 
-        if (scrollY >= offsetTop - 150 && scrollY < offsetTop + offsetHeight - 150) {
-          currentId = section.id;
-        }
-      });
+				if (
+					scrollY >= offsetTop - 150 &&
+					scrollY < offsetTop + offsetHeight - 150
+				) {
+					currentId = section.id;
+				}
+			});
 
-      navButtons.forEach((btn) => {
-        btn.classList.remove("active");
-        if (btn.getAttribute("href") === `#${currentId}`) {
-          btn.classList.add("active");
-        }
-      });
-    }
+			navButtons.forEach((btn) => {
+				btn.classList.remove("active");
+				if (btn.getAttribute("href") === `#${currentId}`) {
+					btn.classList.add("active");
+				}
+			});
+		}
 
-    window.addEventListener("scroll", onScroll);
-    onScroll(); // inicializar al cargar
-  });
+		window.addEventListener("scroll", onScroll);
+		onScroll(); // inicializar al cargar
+	});
 </script>

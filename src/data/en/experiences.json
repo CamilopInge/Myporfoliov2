@@ -4,12 +4,12 @@
     "title": "Freelancer",
     "company": "Fundacion Espiga de la Esperanza",
     "companyUrl": "https://fundacion-espiga-la-esperanza.netlify.app",
-    "content": "Currently I also sell game accounts, it helps me earn income too, thanks to that I created software to manage tasks, passwords and accounts to speed up my sales, I currently work with 2 more people",
+    "content": "I worked on the development of a website for a Colombian foundation, where I designed, developed, implemented SEO, and documented its content.",
     "technologies": [
-      "Service",
-      "Account Management",
-      "Salesperson",
-      "Weekdays"
+      "Design",
+      "Development",
+      "SEO",
+      "Content"
     ]
   },
   {
@@ -30,12 +30,12 @@
     "title": "FDS Assistant",
     "company": "KFC Colombia",
     "companyUrl": "https://www.kfc.co/?srsltid=AfmBOoqAaMo3JkYomSe1Cjlgppeh8J1AtKl3miSlCv1tBhL3n1d2nfca",
-    "content": "Currently I also sell game accounts, it helps me earn income too, thanks to that I created software to manage tasks, passwords and accounts to speed up my sales, I currently work with 2 more people",
+    "content": "I worked at KFC Colombia as an Operations Assistant, in charge of cash handling, order taking, order delivery and packaging, even supporting in its supervision to be successful in this",
     "technologies": [
-      "Service",
-      "Account Management",
-      "Salesperson",
-      "Weekdays"
+      "Customer service",
+      "Cash management",
+      "Order delivery",
+      "Order taking"
     ]
   },
   {
@@ -43,7 +43,7 @@
     "title": "Operations Assistant",
     "company": "Activos SAS",
     "companyUrl": "https://mundoaventura.com.co",
-    "content": "Developed and optimized user-facing features for the company's main application, ensuring cross-browser compatibility and performance.",
+    "content": "In charge of the kitchen area at MUNDO AVENTURA, preparing orders, dispatching orders, scheduling, inventory management, and cleaning.",
     "technologies": [
       "Customer service",
       "Dispatch orders",
