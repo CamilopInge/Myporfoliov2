@@ -7,130 +7,122 @@ import Listcertificates from "../components/listas/Listcertificates.astro";
 ---
 
 <Layout title="Camilo Aguirre">
-
     <div class="text-[#141517] dark:text-slate-300">
-    <!-- Section about -->
-    <section
-        id="about"
-        class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
-        aria-label="About me"
-    >
-        <div
-            class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-[] px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:mx-auto lg:w-full lg:px-0 lg:py-0"
+        <!-- Section about -->
+        <section
+            id="about"
+            class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+            aria-label="About me"
         >
-            <h2
-                class="text-sm font-bold uppercase tracking-widest"
+            <div
+                class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-[] px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:mx-auto lg:w-full lg:px-0 lg:py-0"
             >
-                About
-            </h2>
-        </div>
-        <div class="mt-2 text-sm leading-normal">
-            <p class="mb-4">
-                I started studying systems engineering in 2021, creating web
-                designs. I didn't exploit my creativity much but I got along
-                quite well within the code, creating functionalities in the
-                Back-end. I haven't had the privilege of working with a company,
-                but I support myself with projects to solve problems.
-            </p>
-            <p class="mb-4">
-                My main current goal is to continue working on experience and
-                error management. What I like most is creating scalable,
-                aesthetic and effective software, that looks well designed but
-                works the right way. In my free time I upload videos to YouTube
-                about Linux (Servers, Installations, Console).
-            </p>
-            <p class="mb-4">
-                When I'm not in front of the computer, I like to study, play,
-                read and exercise. I usually think about how to improve every
-                day and I even put code in my life to help me make things easier
-                (I could do it in 1 minute but I decided to automate it),
-                currently I'm looking to develop what I'm doing.
-            </p>
-        </div>
-    </section>
+                <h2 class="text-sm font-bold uppercase tracking-widest">
+                    About
+                </h2>
+            </div>
+            <div class="mt-2 text-sm leading-normal">
+                <p class="mb-4">
+                    Comencé a estudiar Ingeniería de Sistemas en 2021, iniciando
+                    con el diseño web. Aunque no exploté demasiado mi lado
+                    creativo, me desenvolví muy bien con el código,
+                    especialmente creando funcionalidades en el Back-end. Aún no
+                    he tenido la oportunidad de trabajar en una empresa, pero me
+                    he apoyado en proyectos personales para resolver problemas
+                    reales.
+                </p>
+                <p class="mb-4">
+                    Mi principal objetivo actual es seguir ganando experiencia y
+                    mejorar en la gestión de errores. Lo que más disfruto es
+                    crear software escalable, estético y eficiente: que se vea
+                    bien diseñado, pero sobre todo que funcione de la manera
+                    correcta. En mi tiempo libre subo videos a YouTube sobre
+                    Linux (servidores, instalaciones y consola).
+                </p>
+                <p class="mb-4">
+                    Fuera de la computadora, me gusta estudiar, jugar, leer y
+                    hacer ejercicio. Siempre pienso en cómo mejorar día a día e
+                    incluso aplico la lógica del código en mi vida para
+                    simplificar tareas (si algo me toma 1 minuto, busco
+                    automatizarlo). Actualmente estoy enfocado en desarrollar y
+                    potenciar lo que hago.
+                </p>
+            </div>
+        </section>
 
-    <!-- Section Experiences -->
+        <!-- Section Experiences -->
 
-    <section
-        id="experience"
-        class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
-        aria-label="Work experience"
-    >
-        <div
-            class="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:mx-auto lg:w-full lg:px-0 lg:py-0"
+        <section
+            id="experience"
+            class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+            aria-label="Work experience"
         >
-            <h2
-                class="text-sm font-bold uppercase tracking-widest"
+            <div
+                class="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:mx-auto lg:w-full lg:px-0 lg:py-0"
             >
-                Experience
-            </h2>
-        </div>
-        <!-- Lista de experiencias -->
-        <Listexperience />
-    </section>
+                <h2 class="text-sm font-bold uppercase tracking-widest">
+                    Experience
+                </h2>
+            </div>
+            <!-- Lista de experiencias -->
+            <Listexperience />
+        </section>
 
-    <!-- Section Projects -->
+        <!-- Section Projects -->
 
-    <section
-        id="projects"
-        class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
-        aria-label="Projects"
-    >
-        <!-- Título -->
-        <div
-            class="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:mx-auto lg:w-full lg:px-0 lg:py-0"
+        <section
+            id="projects"
+            class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+            aria-label="Projects"
         >
-            <h2
-                class="text-sm font-bold uppercase tracking-widest"
+            <!-- Título -->
+            <div
+                class="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:mx-auto lg:w-full lg:px-0 lg:py-0"
             >
-                Projects
-            </h2>
-        </div>
+                <h2 class="text-sm font-bold uppercase tracking-widest">
+                    Projects
+                </h2>
+            </div>
 
-        <!-- Lista de proyectos -->
-        <Listprojects />
-    </section>
+            <!-- Lista de proyectos -->
+            <Listprojects />
+        </section>
 
-    <!-- Section Skills -->
+        <!-- Section Skills -->
 
-    <section
-        id="skills"
-        class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
-        aria-label="skills"
-    >
-        <!-- Título -->
-        <div
-            class="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:mx-auto lg:w-full lg:px-0 lg:py-0"
+        <section
+            id="skills"
+            class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+            aria-label="skills"
         >
-            <h2
-                class="text-sm font-bold uppercase tracking-widest"
+            <!-- Título -->
+            <div
+                class="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:mx-auto lg:w-full lg:px-0 lg:py-0"
             >
-                Skills
-            </h2>
-        </div>
+                <h2 class="text-sm font-bold uppercase tracking-widest">
+                    Skills
+                </h2>
+            </div>
 
-        <Listskills />
-        
-    </section>
+            <Listskills />
+        </section>
 
-    <!-- Section Certificates -->
+        <!-- Section Certificates -->
 
-    <section
-        id="certificates"
-        class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
-        aria-label="certificates"
-    >
-        <!-- Título -->
-        <div
-            class="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:mx-auto lg:w-full lg:px-0 lg:py-0"
+        <section
+            id="certificates"
+            class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+            aria-label="certificates"
         >
-            <h2
-                class="text-sm font-bold uppercase tracking-widest"
+            <!-- Título -->
+            <div
+                class="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:mx-auto lg:w-full lg:px-0 lg:py-0"
             >
-                Certificates
-            </h2>
-        </div>
-        <Listcertificates />
-    </section>
+                <h2 class="text-sm font-bold uppercase tracking-widest">
+                    Certificates
+                </h2>
+            </div>
+            <Listcertificates />
+        </section>
     </div>
 </Layout>

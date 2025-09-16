@@ -1,42 +1,42 @@
 [
   {
-    "date": "2025 — Present",
+    "date": "2025 — 2025",
     "title": "Freelancer",
     "company": "Fundacion Espiga de la Esperanza",
     "companyUrl": "https://fundacion-espiga-la-esperanza.netlify.app",
-    "content": "I worked on the development of a website for a Colombian foundation, where I designed, developed, implemented SEO, and documented its content.",
+    "content": "Trabajé en el desarrollo de un sitio web para una fundación colombiana, donde diseñé, desarrollé, implementé SEO y documenté su contenido.",
     "technologies": [
-      "Design",
-      "Development",
+      "Diseño",
+      "Desarrollo",
       "SEO",
-      "Content"
+      "Contenido"
     ]
   },
 
   {
     "date": "2024 — 2025",
-    "title": "FDS Assistant",
+    "title": "Asistente de FDS",
     "company": "KFC Colombia",
     "companyUrl": "https://www.kfc.co/?srsltid=AfmBOoqAaMo3JkYomSe1Cjlgppeh8J1AtKl3miSlCv1tBhL3n1d2nfca",
-    "content": "I worked at KFC Colombia as an Operations Assistant, in charge of cash handling, order taking, order delivery and packaging, even supporting in its supervision to be successful in this",
+    "content": "Trabajé en KFC Colombia como Asistente de Operaciones, encargada del manejo de caja, toma de pedidos, entrega de pedidos y empaque, incluso apoyando en su supervisión para tener éxito en esta",
     "technologies": [
-      "Customer service",
-      "Cash management",
-      "Order delivery",
-      "Order taking"
+      "servicio al cliente",
+      "Gestión de efectivo",
+      "Entrega de pedidos",
+      "Toma de pedidos"
     ]
   },
   {
     "date": "2022 — 2023",
-    "title": "Operations Assistant",
+    "title": "Asistente de operaciones",
     "company": "Activos SAS",
     "companyUrl": "https://mundoaventura.com.co",
-    "content": "In charge of the kitchen area at MUNDO AVENTURA, preparing orders, dispatching orders, scheduling, inventory management, and cleaning.",
+    "content": "Encargado del área de cocina en MUNDO AVENTURA, preparación de pedidos, despacho de pedidos, programación, manejo de inventario y limpieza.",
     "technologies": [
-      "Customer service",
-      "Dispatch orders",
-      "Inventory counts",
-      "Closing forms"
+      "Servicio al cliente",
+      "Órdenes de envío",
+      "recuentos de inventario",
+      "Formularios de cierre"
     ]
   }
 ]
