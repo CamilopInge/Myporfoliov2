@@ -1,7 +1,7 @@
 [
     {
     "image": "https://cdn.prod.website-files.com/630ca238d7b194730630c5ee/66703e5d4f82cf35b254d456_Blog2%20(8).webp",
-    "date": "June 2025",
+    "date": "Junio 2025",
     "title": "Análisis de datos - Accidentes de tránsito en Colombia",
     "content": "Proyecto de análisis de datos sobre accidentes de tránsito en Colombia utilizando Python, Pandas y Matplotlib para identificar patrones y tendencias.",
     "repositorie": "https://github.com/CamilopInge/Accidentes-transito-Colab-Python",
@@ -15,7 +15,7 @@
   },
     {
     "image": "/images/project_iot_dashboard.webp",
-    "date": "May 2025",
+    "date": "Mayo 2025",
     "title": "Sensor de temperatura Ecosistema IoT",
     "content": "Creación de un ecosistema IoT para un sensor de temperatura y humedad, para análisis de datos con Python, utilizando el protocolo MQTT y NODE-red",
     "repositorie": "https://github.com/CamilopInge/ecosistemaiot",
@@ -29,7 +29,7 @@
   },
   {
     "image": "/images/project_ecommerce_home.webp",
-    "date": "August 2024",
+    "date": "Agosto 2024",
     "title": "Comercio electrónico básico (ChatBOT)",
     "content": "Creación de una tienda de informática, con un ChatBot (API OpenIA) para mostrar el contenido del producto, utilizando Laravel y SQLserver.",
     "repositorie": "https://github.com/CamilopInge/laravel_e-comerce",
@@ -43,7 +43,7 @@
   },
     {
     "image": "/images/projects_porfolio_V1.webp",
-    "date": "March 2023",
+    "date": "Marzo 2023",
     "title": "Portfolio Website Version 1",
     "content": "Diseñé y construí un sitio web de portafolio personal responsivo con animaciones.",
     "repositorie": "https://github.com/CamilopInge/MyPortafolioWeb",
@@ -56,7 +56,7 @@
   },
   {
     "image": "/images/projects_manager_accounts.webp",
-    "date": "January 2023",
+    "date": "Enero 2023",
     "title": "Gerente de cuentas",
     "content": "Aplicación de escritorio para gestionar cuentas de clientes, con funcionalidades CRUD, utilizando Java y MySQL.",
     "repositorie": "",
