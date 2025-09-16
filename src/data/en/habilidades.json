@@ -7,10 +7,6 @@
                 "svg": "/images/skills/java.svg"
             },
             {
-                "titulo": "Laravel",
-                "svg": "/images/skills/laravel.svg"
-            },
-            {
                 "titulo": "Python",
                 "svg": "/images/skills/python.svg"
             },
@@ -21,10 +17,6 @@
             {
                 "titulo": "SQLserver",
                 "svg": "/images/skills/sqlserver.svg"
-            },
-            {
-                "titulo": "MongoDB",
-                "svg": "/images/skills/mongodb.svg"
             }
 
         ]
@@ -32,14 +24,6 @@
     {
         "categoria": "Front-end",
         "habilidades": [
-            {
-                "titulo": "HTML",
-                "svg": "/images/skills/html.svg"
-            },
-            {
-                "titulo": "CSS",
-                "svg": "/images/skills/css.svg"
-            },
             {
                 "titulo": "JavaScript",
                 "svg": "/images/skills/javascript.svg"

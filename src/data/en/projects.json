@@ -1,27 +1,30 @@
 [
-  {
-    "image": "/images/projects_manager_accounts.webp",
-    "date": "January 2023",
-    "title": "Account Manager",
-    "content": "Developed a scalable e-commerce platform with React, Node.js, and MongoDB.",
-    "repositorie": "",
+    {
+    "image": "https://cdn.prod.website-files.com/630ca238d7b194730630c5ee/66703e5d4f82cf35b254d456_Blog2%20(8).webp",
+    "date": "June 2025",
+    "title": "Data analysis - traffic accidents in Colombia",
+    "content": "Data analysis project on traffic accidents in Colombia using Python, Pandas, and Matplotlib to identify patterns and trends.",
+    "repositorie": "https://github.com/CamilopInge/Accidentes-transito-Colab-Python",
     "badges": [
-      "Java",
-      "MySQL",
-      "JSON"
+      "Python",
+      "Excel",
+      "Pandas",
+      "Matplotlib",
+      "seaborn"
     ]
   },
-  {
-    "image": "/images/projects_porfolio_V1.webp",
-    "date": "March 2023",
-    "title": "Portfolio Website Version 1",
-    "content": "Designed and built a responsive personal portfolio website with animations.",
-    "repositorie": "https://github.com/CamilopInge/MyPortafolioWeb",
+    {
+    "image": "/images/project_iot_dashboard.webp",
+    "date": "May 2025",
+    "title": "Ecosistema IoT Temperature sensor",
+    "content": "Creating an IoT ecosystem for a temperature and humidity sensor, for data analysis with Python, using MQTT protocol and NODE-red",
+    "repositorie": "https://github.com/CamilopInge/ecosistemaiot",
     "badges": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "JSON"
+      "SQLite",
+      "Python",
+      "WokWi",
+      "Node-Red",
+      "HiveMQ"
     ]
   },
   {
@@ -38,18 +41,30 @@
       "OpenIA"
     ]
   },
-  {
-    "image": "/images/project_iot_dashboard.webp",
-    "date": "May 2025",
-    "title": "Ecosistema IoT Temperature sensor",
-    "content": "Creating an IoT ecosystem for a temperature and humidity sensor, for data analysis with Python, using MQTT protocol and NODE-red",
-    "repositorie": "https://github.com/CamilopInge/ecosistemaiot",
+    {
+    "image": "/images/projects_porfolio_V1.webp",
+    "date": "March 2023",
+    "title": "Portfolio Website Version 1",
+    "content": "Designed and built a responsive personal portfolio website with animations.",
+    "repositorie": "https://github.com/CamilopInge/MyPortafolioWeb",
     "badges": [
-      "SQLite",
-      "Python",
-      "WokWi",
-      "Node-Red",
-      "HiveMQ"
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "JSON"
+    ]
+  },
+  {
+    "image": "/images/projects_manager_accounts.webp",
+    "date": "January 2023",
+    "title": "Account Manager",
+    "content": "Developed a scalable e-commerce platform with React, Node.js, and MongoDB.",
+    "repositorie": "",
+    "badges": [
+      "Java",
+      "MySQL",
+      "JSON"
     ]
   }
+
 ]
